@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug 17 15:39:02 2019
+
+@author: chansa
+"""
+
+#TODO: create a hashtable at once
+items1 = dict({"key1": 1, "key2": 2, "Key3": "three"})
+print(items1)
+
+items2 = {}
+items2["Key1"] = 1
+items2["Key2"] = 2
+items2["Key3"] = 3
+
+print (items2)
+items2["key2"] = "two"
+print(items2) 
+#TODO: iterate the keys and values in the dictionary
+for key, value in items2.items():
+    print("Key: ", key, "Value: ", value)
+
+
